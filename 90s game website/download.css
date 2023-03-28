@@ -1,0 +1,63 @@
+/*This is where be put the basic colors for the whole website such as the background color*/
+* {
+    margin: 0;
+    background-color: rgb(184, 129, 53);
+}
+/*This is where our nav bar is being customized.*/
+.topnav {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 25px;
+    width: 100%;
+    height: 55px;
+    position:fixed;
+    margin-top: 125px;
+    z-index: 2;
+}
+    
+a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: red;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;    
+    padding-bottom: 10px;
+    display:inline-block;
+}
+
+a:hover {
+    color: white;
+    background-color: orange;   
+}
+
+img {
+    max-height: 10cm;
+    max-height: 10cm;
+    border: solid 3px white;
+    position: relative;
+    left: 17cm;
+    top: 6cm;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 6cm;
+    color: white;
+}
+
+p {
+    position: relative;
+    top: 12cm;
+    border: 3px solid white;
+    max-width: 15cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    left: 20px;
+    color: white;
+    background-color: rgb(72, 211, 224);
+}
